@@ -36,7 +36,7 @@ public enum EndpointInfo {
 
     private final ItemsWithInfo webInterface = new ItemsWithInfo("Access the web interface using", "/manager/home");
     private final ItemsWithInfo ocppSoap = new ItemsWithInfo("SOAP endpoint for OCPP", "/services/CentralSystemService");
-    private final ItemsWithInfo ocppWebSocket = new ItemsWithInfo("WebSocket/JSON endpoint for OCPP", "/websocket/CentralSystemService/(chargeBoxId)");
+    private final ItemsWithInfo ocppWebSocket = new ItemsWithInfo("WebSocket/JSON endpoint for OCPP", "/(chargeBoxId)");
 
     @Getter
     @ToString
